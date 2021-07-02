@@ -46,10 +46,10 @@ h2 {
   width: 50%;
   transform: rotate(25deg);
   position: absolute;
-  right: 30%;
+  right: 20%;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 991px) {
   #title {
     text-align: center;
   }
