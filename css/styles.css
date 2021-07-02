@@ -19,6 +19,10 @@ h2 {
   font-size: 3rem;
   line-height: 1.5;
 }
+h3 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
 
 /* Navitation bar */
 .navbar {
@@ -38,17 +42,16 @@ h2 {
 
 /* Downlaod Buttons */
 .download-button {
-  margin: 5% 3% 5% 0;
+  margin: 5% 3% 8% 0;
 }
 
 /* Title Image */
 .title-img {
-  width: 50%;
+  width: 40%;
   transform: rotate(25deg);
   position: absolute;
-  right: 20%;
+  right: 18%;
 }
-
 @media (max-width: 991px) {
   #title {
     text-align: center;
@@ -124,4 +127,30 @@ h2 {
 }
 .pricing-col {
   padding: 3% 2%;
+}
+
+/* call to action section */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 3% 15%;
+}
+.cta-text {
+  font-family: "Montserrat";
+  color: white;
+}
+.download-cta-button {
+  margin: 2%;
+}
+
+/* footer */
+#footer {
+  margin: 3% 0;
+  text-align: center;
+}
+.footer-fab {
+  margin: 0 1rem 1rem 0;
+}
+.copyright-text {
+  color: #808080;
 }
