@@ -20,8 +20,6 @@ h2 {
   line-height: 1.5;
 }
 
-
-
 /* Navitation bar */
 .navbar {
   padding: 0 0 4.5rem 0;
@@ -51,6 +49,16 @@ h2 {
   right: 30%;
 }
 
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
 /* Features */
 
 #features {
@@ -62,7 +70,6 @@ h2 {
 }
 .features {
   text-align: center;
-
 }
 .col-features {
   padding: 2% 5%;
